@@ -22,7 +22,7 @@ public class OverKillServiceTest {
 
         String actual = "Hello Buttercup";
         String result = overKillService.concatenate2("Cup");
-        assertNotEquals (actual, result);
+        assertEquals (actual, result);
 
     }
 
